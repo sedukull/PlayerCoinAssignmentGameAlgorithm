@@ -1,4 +1,4 @@
-# PlayerCoinAssignmentGameAlgorithm
+# Player Coin Assignment Game Algorithm
 Given set of coins 'n', and set of players 'm', and 'x' number of rounds. Assigns a unique coin to each player in different rounds of a game.
 
 
@@ -62,4 +62,4 @@ Note: pij ==> denotes the assignment for round 'i' and player 'j'
 ** The final_output_assignment contains the final assignments for all rounds.
 
 #### Solution
-The solution and few testss were added under CointAssignment
+The solution and few testss were added under PlayerCoinAssignmentGameAlgorithm.py
