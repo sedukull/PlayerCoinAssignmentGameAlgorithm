@@ -22,9 +22,9 @@ Given set of coins 'n', and set of players 'm', and 'x' number of rounds. Assign
         6. Now, iterate the above approach for various rounds. However, in each round keep track of previous assignments to the players so as to make the assignment unique.
 
 #### Inputs:
-[m1, m2, m3, m4...]: Array of m players.
-[n1, n2, n3, n4...]: Array of n coins.
-x: number of rounds.
+    [m1, m2, m3, m4...]: Array of m players.
+    [n1, n2, n3, n4...]: Array of n coins.
+    x: number of rounds.
 
 
 ### Validate constraints:
@@ -37,7 +37,7 @@ x: number of rounds.
 
 * set nSize = n.size()
 * set mSize = m.size()
-Note: pij ==> denotes the assignment for round 'i' and player 'j'
+* Note: pij ==> denotes the assignment for round 'i' and player 'j'
 
 #### round1:
    * Set player1_coin_assignment(p11)  = (n)  % rand(0, nSize)  
