@@ -10,13 +10,13 @@ Problem Statement:
 Algorithm/Solution:
 
     The number of ways "n" items can be assigned to "m" people is (n) combinatories of (m) i.e, n!/(n-m)!*m! 
-    Round1:
+    In a given round
         1. We have n coins, and m players to begin with.
         2. So, player1 can be assigned with n coins in  n C 1 ways i.e., (n!/(n-1)!*1!)
         3. Since 1 coin is assigned to player1, now player2 will only have (n-1) coins to be assigned with in n-1c1 ways i.e, (n-1)!/(n-2)!*1!
         4. As such two coins are already asigned. So, player3 can be assigned with n-2 C 1 ways i.e., (n-2)!/((n-3)!1!) ways. 
         5. Similarly, player x can be assigned with n-x-1 C 1 ways, i.e, (n-x-1)!/(n-x-2)!*1!
-
+        6. Now, continue the above approach for different rounds.  
 Inputs:
 
 [m1, m2, m3, m4...]: Array of m players.
