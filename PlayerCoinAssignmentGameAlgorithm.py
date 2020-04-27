@@ -106,7 +106,7 @@ class CoinAssignmentAlgorithm:
             round_assignment_list = []
 
             for player in self.player_list:
-                available_assignment_list = list(set(self.coin_list) - set(self.player_assignment_tracker[player])) 
+                available_assignment_list = list(set(self.coin_list) - set(self.player_assignment_tracker[player]) - set(round_assignment_list)) 
                 player_coin_assignment = available_assignment_list[random.randint(0, len(available_assignment_list)-1)]
                 round_assignment_list.append(player_coin_assignment)
                 self.player_assignment_tracker[player].append(player_coin_assignment)
