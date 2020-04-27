@@ -57,9 +57,9 @@ Given set of coins 'n', and set of players 'm', and 'x' number of rounds. Assign
    Now, update player_assignment_buffer = {'m1': [p11, p21], 'm2': [p12, p21]...}
    * Set final_output_assignment = { 'round1' : {}, 'round2': {} }
    
-   ** continue the above approach of assignment till round(x).
+    * continue the above approach of assignment till round(x).
 
 ** The final_output_assignment contains the final assignments for all rounds.
 
-#### Solution
+#### Solution:
 The solution and few testss were added under PlayerCoinAssignmentGameAlgorithm.py
