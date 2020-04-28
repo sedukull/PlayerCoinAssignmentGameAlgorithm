@@ -5,8 +5,8 @@ Given set of coins 'n', and set of players 'm', and 'x' number of rounds. Assign
 ## Problem Statement:
 
  Imagine if we have (m) players and (n) coins. 
-    Assumption1: n >= m.
-    Assumption2: each coin is unique.
+    * Assumption1: n >= m.
+    * Assumption2: each coin is unique.
     -- There are x rounds in a given game. In each round, each player will be assigned a unique coin from given (n) coins.
     -- We need to find all combinations of coin assignments to m players in different rounds.
     -- The coin assigned in each round to a player should be different from the earlier assignments. 
