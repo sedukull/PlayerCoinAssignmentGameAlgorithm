@@ -1,5 +1,5 @@
 # Player Coin Assignment Game Algorithm
-Given set of coins 'n', and set of players 'm', and 'x' number of rounds. Assigns a unique coin to each player in different rounds of a game.
+Given set of coins 'n',  'm' number of players, and 'x' number of rounds. Assigns a unique coin to each player in different rounds of a game.
 
 
 ## Problem Statement:
